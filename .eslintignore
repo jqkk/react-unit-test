@@ -1,0 +1,8 @@
+# modules
+node_modules
+
+## eslint
+.eslintrc.cjs
+
+# vite config
+vite.config.ts
