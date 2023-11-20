@@ -8,6 +8,7 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:unicorn/recommended",
     "plugin:storybook/recommended",
+    "plugin:@tanstack/eslint-plugin-query/recommended",
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   parser: "@typescript-eslint/parser",
