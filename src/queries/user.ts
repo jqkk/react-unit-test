@@ -6,4 +6,5 @@ export const useGetUserProfileQuery = ({ userId }: { userId: string }) =>
   useSuspenseQuery({
     queryKey: ["user", "profile", userId],
     queryFn: () => getUserProfile(userId),
+    refetchOnWindowFocus: false,
   });
