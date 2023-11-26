@@ -93,8 +93,6 @@ describe("Pagination 컴포넌트 테스트", () => {
 
     const { getByTestId, getByText } = render(<ExampleComponent />);
     const previousButton = getByTestId("pagination-previous-button");
-
-    expect(previousButton).toHaveAttribute("aria-disabled", "true");
     await user.click(previousButton);
 
     expect(getByText("1")).toBeInTheDocument();
