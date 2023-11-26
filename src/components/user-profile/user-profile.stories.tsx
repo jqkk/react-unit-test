@@ -3,8 +3,9 @@ import { rest } from "msw";
 import { Flex } from "@kuma-ui/core";
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { UserProfile } from ".";
 import { BASE_URL, PATH } from "~/constants/url";
+
+import { UserProfile } from ".";
 
 const meta: Meta<typeof UserProfile> = {
   title: "UserProfile",
