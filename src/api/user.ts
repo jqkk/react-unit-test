@@ -1,6 +1,5 @@
 import { BASE_URL, PATH } from "~/constants/url";
-
-import { fetcher } from ".";
+import { fetcher } from "~/libs/fetcher";
 
 export const getUserProfile = async (
   userId: string
