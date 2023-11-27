@@ -51,10 +51,10 @@ describe("Pagination 컴포넌트 테스트", () => {
     );
   });
 
-  it("pageCount가 10이고, currentCount가 7인 상황에서 이전 버튼을 누르면 이전 바운더리로 이동한다.", async () => {
+  it("pageCount가 10이고, currentCount가 6인 상황에서 이전 버튼을 누르면 이전 바운더리로 이동한다.", async () => {
     const user = userEvent.setup();
     const ExampleComponent = () => {
-      const [currentCount, setCurrentCount] = useState(7);
+      const [currentCount, setCurrentCount] = useState(6);
       return (
         <Pagination
           currentCount={currentCount}
